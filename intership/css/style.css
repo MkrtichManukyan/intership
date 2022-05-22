@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header-intership nav{
+    background-color: white;
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+}
+.header-intership nav div a img{
+    max-width: 230px;
+    width: 100%;
+}
+.offcanvas{
+    border-radius: 30px 0 0 30px;
+}
+.header-menu{
+    justify-content: flex-end;
+}
+.ul-decoration li a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    margin: 0 10px;
+}
+.ul-decoration li a:hover{
+    border-bottom: 2.5px solid #526DB4;
+    transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#activ{
+    border-bottom: 2.5px solid #526DB4;
+}
+.section-menu-one{
+    background-image: url(../img/Group\ 7179.png);
+    background-size: 100% 100%;
+    background-color: #BDCF48;
+    padding-top: 50px;
+}
+.section-one-div-left{
+    display: flex;
+    align-items: flex-end;
+}
+.img-div-one-left{
+    max-width: 1115px;
+    width: 100%;
+}
+.section-one-div-right{
+    text-align: end;
+    margin-left: 15%;
+}
+.img-div-one-right{
+    max-width: 500px;
+    width: 100%;
+}
+.download-img-div-one{
+    text-align: center;
+}
+.download-img-div-one p{
+    font-size: 20px;
+    margin-left: -105%;
+}
+.download-img-div-one div{
+    margin-left: -50%;
+}
+.download-img-div-one a img{
+    max-width: 250px;
+    width: 100%;
+}
+.footer-intership{
+    background-color: #526DB4;
+    padding: 50px 0;
+}
+.footer-intership-left img{
+    max-width: 230px;
+    width: 100%;
+}
+.footer-intership-right{
+    text-align: right;
+    margin-top: 30px;
+}
+.footer-div-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.footer-div-bottom{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+.footer-div-bottom p{
+    color: white;
+    font-size: 25px;
+}
+.footer-div-bottom ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.footer-div-bottom ul li{
+    margin: 0 10px;
+}
+.footer-div-bottom ul li a img{
+    max-width: 50px;
+    width: 100%;
+}
