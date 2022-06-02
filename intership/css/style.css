@@ -7,15 +7,18 @@
     background-color: white;
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
 }
-.header-intership nav div a img{
+.logo-intership{
     max-width: 230px;
     width: 100%;
 }
-.offcanvas{
-    border-radius: 30px 0 0 30px;
+.button-width{
+    min-width: 100px;
 }
 .header-menu{
     justify-content: flex-end;
+}
+.ul-decoration li{
+    margin-left: 15px;
 }
 .ul-decoration li a{
     text-decoration: none;
@@ -27,8 +30,35 @@
     border-bottom: 2.5px solid #526DB4;
     transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+.div-margin-left{
+    margin-left: 50px;
+}
+.list-style{
+    list-style: none;
+}
+.list-style a img{
+    margin: 20px;
+}
+.logo-facebook{
+    max-width: 60px;
+    width: 100%;
+}
 #activ{
     border-bottom: 2.5px solid #526DB4;
+}
+.margin-button{
+    margin-left: 50px;
+}
+.button-clos{
+    border: none;
+    font-size: 35px;
+    color: var(--bs-navbar-color);
+    margin-top: 35px;
+    background-color: white;
+    transform: rotate(180deg);
+}
+.header-responsiv-footer-color{
+    color: #526DB4;
 }
 .section-menu-one{
     background-image: url(../img/Group\ 7179.png);
@@ -153,6 +183,45 @@
     background-color: #8258A6;
     z-index: -555;
     position: absolute;
+}
+.bacground-section-menu-three-div{
+    background-color: #8258A6;
+    z-index: -555;
+    margin-top: 20%;
+}
+.text-thought-responsiv{
+    position: absolute;
+    width: 150px;
+    height: 204px;
+    left: 65px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+}
+.responsiv-img-girl{
+    max-width: 300px;
+    width: 100%;
+}
+.responsiv-img-phone{
+    max-width: 200px;
+    width: 100%;
+}
+.girl-img-thought-responsiv{
+    margin-top: -30%;
+    margin-bottom: -25%;
+}
+.text-girl-img{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 .foure-section-div-color{
     width: 100%;
@@ -445,6 +514,10 @@
     background-color: #526DB4;
     padding: 50px 0;
 }
+.footer-intership-link{
+    margin: 40px 0px 40px 50px;
+    text-decoration: none;
+}
 .footer-intership-left img{
     max-width: 230px;
     width: 100%;
@@ -462,7 +535,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 50px 0 50px 50px;
 }
 .footer-div-bottom p{
     color: white;
@@ -481,11 +554,23 @@
     width: 100%;
 }
 @media (max-width:1425px){
+    .section-menu-three-div{
+        padding-top: 200px;
+    }
     .six-vector-center{
         height: 7550px;
     }
     .girl-img-thought{
-        left: 60%;
+        left: 55%;
+        height: 1070px;
+    }
+    .img-div-three-right{
+        max-width: 450px;
+        width: 100%;
+    }
+    .text-div-three{
+        font-size: 25px;
+        line-height: 40px;
     }
 }
 @media (max-width:991px){
@@ -496,6 +581,47 @@
         position: inherit;
         height: 600px;
         background-size: 100% 100%;
+    }
+    .six-phone-right,.six-phone-left-three,.phone-div-six img,.six-phone-left,.padding-six-phone,.phone-div-six-foure img,.six-phone-right-foure-two,.phone-div-six-five-one img,.six-phone-left-five,.six-phone-right-foure,.phone-div-six-seven img,.phone-div-six-five img{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .six-div-text{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .text-p-five{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .five-text-logo{
+        padding-top: 50px;
+    }
+    .five-logo p{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+        margin-right: 200px;
+    }
+    .botton-five-div a{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 5px;
+    }
+    .footer-intership-left{
+        text-align: center;
+    }
+    .footer-intership-right{
+        text-align: left;
+    }
+    .footer-div-bottom{
+        justify-content: space-between;
+    }
+    .footer-div-bottom{
+        margin-left: 50px;
     }
 }
 @media (max-width:615px){

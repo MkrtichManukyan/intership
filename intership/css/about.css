@@ -7,15 +7,18 @@
     background-color: white;
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
 }
-.header-intership nav div a img{
+.logo-intership{
     max-width: 230px;
     width: 100%;
 }
-.offcanvas{
-    border-radius: 30px 0 0 30px;
+.button-width{
+    min-width: 100px;
 }
 .header-menu{
     justify-content: flex-end;
+}
+.ul-decoration li{
+    margin-left: 15px;
 }
 .ul-decoration li a{
     text-decoration: none;
@@ -27,8 +30,35 @@
     border-bottom: 2.5px solid #526DB4;
     transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+.div-margin-left{
+    margin-left: 50px;
+}
+.list-style{
+    list-style: none;
+}
+.list-style a img{
+    margin: 20px;
+}
+.logo-facebook{
+    max-width: 60px;
+    width: 100%;
+}
 #activ{
     border-bottom: 2.5px solid #526DB4;
+}
+.margin-button{
+    margin-left: 50px;
+}
+.button-clos{
+    border: none;
+    font-size: 35px;
+    color: var(--bs-navbar-color);
+    margin-top: 35px;
+    background-color: white;
+    transform: rotate(180deg);
+}
+.header-responsiv-footer-color{
+    color: #526DB4;
 }
 .meet-team{
     margin: 20px auto;
@@ -52,6 +82,10 @@
 .footer-intership{
     background-color: #526DB4;
     padding: 50px 0;
+}
+.footer-intership-link{
+    margin: 40px 0px 40px 50px;
+    text-decoration: none;
 }
 .footer-intership-left img{
     max-width: 230px;
@@ -87,4 +121,18 @@
 .footer-div-bottom ul li a img{
     max-width: 50px;
     width: 100%;
+}
+@media (max-width:991px){
+    .footer-intership-left{
+        text-align: center;
+    }
+    .footer-intership-right{
+        text-align: left;
+    }
+    .footer-div-bottom{
+        justify-content: space-between;
+    }
+    .footer-div-bottom{
+        margin-left: 50px;
+    }
 }
