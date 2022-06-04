@@ -376,7 +376,7 @@
     background-image: url(../img/Vector\ 1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 7800px;
+    height: 7600px;
 }
 .six-phone-left{
     text-align: end;
@@ -590,9 +590,6 @@
     .section-menu-three-div{
         padding-top: 200px;
     }
-    .six-vector-center{
-        height: 7550px;
-    }
     .girl-img-thought{
         left: 55%;
         height: 1070px;
@@ -604,6 +601,19 @@
     .text-div-three{
         font-size: 25px;
         line-height: 40px;
+    }
+    .six-vector-center{
+        height: 7100px;
+    }
+}
+@media (max-width:1300px){
+    .six-vector-center{
+        height: 6650px;
+    }
+}
+@media (max-width:1150px){
+    .six-vector-center{
+        height: 6350px;
     }
 }
 @media (max-width:991px){

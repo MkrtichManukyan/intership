@@ -79,6 +79,9 @@
     max-width: 350px;
     width: 100%;
 }
+.h3-card-size{
+    font-size: 30px;
+}
 .footer-intership{
     background-color: #526DB4;
     padding: 50px 0;
@@ -123,9 +126,6 @@
     width: 100%;
 }
 @media (max-width:991px){
-    .footer-intership-left{
-        text-align: center;
-    }
     .footer-intership-right{
         text-align: left;
     }
@@ -134,5 +134,8 @@
     }
     .footer-div-bottom{
         margin-left: 50px;
+    }
+    .h3-card-size{
+        font-size: 28px;
     }
 }
