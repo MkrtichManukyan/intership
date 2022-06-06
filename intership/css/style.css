@@ -46,6 +46,9 @@
 #activ{
     border-bottom: 2.5px solid #526DB4;
 }
+.offcanvas-mg{
+    margin: 20px;
+}
 .margin-button{
     margin-left: 50px;
 }
@@ -668,6 +671,10 @@
     .section-menu-foure-div{
         padding-top: 0;
     }
+    .logo-intership{
+        max-width: 150px;
+        width: 100%;
+    }
 }
 @media (max-width:615px){
     .text-girl-thought{
@@ -688,6 +695,10 @@
     }
     .position-phone-img img{
         max-width: 100px;
+        width: 100%;
+    }
+    .logo-intership{
+        max-width: 130px;
         width: 100%;
     }
 }

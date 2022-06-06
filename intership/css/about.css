@@ -46,6 +46,9 @@
 #activ{
     border-bottom: 2.5px solid #526DB4;
 }
+.offcanvas-mg{
+    margin: 20px;
+}
 .margin-button{
     margin-left: 50px;
 }
@@ -137,5 +140,15 @@
     }
     .h3-card-size{
         font-size: 28px;
+    }
+    .logo-intership{
+        max-width: 150px;
+        width: 100%;
+    }
+}
+@media (max-width:400px){
+    .logo-intership{
+        max-width: 130px;
+        width: 100%;
     }
 }
